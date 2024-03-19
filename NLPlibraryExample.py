@@ -3,7 +3,7 @@ import keyboard
 import pyperclip
 from openai import OpenAI
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='your_api_key')
 
 def correct_sentence(sentence):
     blob = TextBlob(sentence)

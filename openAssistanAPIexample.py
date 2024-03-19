@@ -4,7 +4,7 @@ import cohere
 import time
 
 # Replace 'your-cohere-api-key' with your actual Cohere API key
-co = cohere.Client('nWYlyoVwoBykKpjUJqbMuftiTDFCGE8sc2inDHU1')
+co = cohere.Client('your_api_key')
 
 
 def correct_sentence(sentence):
